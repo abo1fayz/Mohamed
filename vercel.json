@@ -1,12 +1,19 @@
 {
   "version": 2,
   "functions": {
-    "webhook.js": {
+    "api/webhook.py": {
+      "runtime": "python3.12",
       "maxDuration": 10
     }
   },
-  "rewrites": [
-    { "source": "/api/webhook", "destination": "/webhook.js" },
-    { "source": "/webhook", "destination": "/webhook.js" }
+  "routes": [
+    {
+      "src": "/api/webhook",
+      "dest": "/api/webhook.py"
+    },
+    {
+      "src": "/webhook",
+      "dest": "/api/webhook.py"
+    }
   ]
 }
