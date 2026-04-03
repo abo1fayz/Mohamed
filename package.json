@@ -1,9 +1,9 @@
 {
-  "name": "student-bot",
+  "name": "telegram-bot",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev"
+    "start": "node webhook.js"
   },
   "dependencies": {
     "telegraf": "^4.15.3",
