@@ -2,9 +2,6 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "start": "node webhook.js"
-  },
   "dependencies": {
     "telegraf": "^4.15.3",
     "firebase": "^10.8.0"
