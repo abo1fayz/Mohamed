@@ -1,0 +1,12 @@
+{
+  "name": "telegram-student-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "firebase": "^10.8.0"
+  }
+}
