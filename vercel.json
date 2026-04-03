@@ -1,14 +1,12 @@
 {
   "version": 2,
   "functions": {
-    "api/webhook.js": {
+    "webhook.js": {
       "maxDuration": 10
     }
   },
-  "routes": [
-    {
-      "src": "/api/webhook",
-      "dest": "/api/webhook.js"
-    }
+  "rewrites": [
+    { "source": "/api/webhook", "destination": "/webhook.js" },
+    { "source": "/webhook", "destination": "/webhook.js" }
   ]
 }
