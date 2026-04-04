@@ -5,7 +5,7 @@ import re
 import json
 import time
 
-BOT_TOKEN = "8773180444:AAFqH82a0WHIm6U2RG4knBUG1W2vBvJnSTI"
+BOT_TOKEN = "8788938519:AAEqrkdcAI53XfaDFLzoL_oAVxVh81EknPQ"
 
 # ========== حذف أي Webhook سابق ==========
 try:
